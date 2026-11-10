@@ -16,6 +16,20 @@ A Python Streamlit app that replays real satellite close approaches from the ESA
   - Fable 5.2 high: design decisions, stubborn bugs, end-of-phase reviews, interview grilling
   - Fable 5.2 xhigh: checking accuracy numbers before they go in the README
 
+## Skills
+
+Before starting work where one of these fits, say in one line which skill to run (and, for the user's own parts, to add "hints and review only, I write the code"):
+
+- `/mattpocock-skills:domain-modeling` - Phase 1, while exploring the columns: agree on terms (event, report, TCA, risk)
+- `/mattpocock-skills:research` - Phases 1 and 5: facts from the ESA paper and dataset docs
+- `/mattpocock-skills:tdd` - Phases 2, 3 and 5, before writing each function and its tests
+- `/mattpocock-skills:diagnosing-bugs` - after the user's 15 minutes of debugging have run out
+- `/mattpocock-skills:grilling` - before the user accepts a change, and when practising for interviews (Phase 6)
+- `/mattpocock-skills:prototype` - Phase 4, before building the screen
+- `/dataviz` - Phase 4, for the risk chart
+- `/run` - Phase 4 onward, to check a change works on screen
+- `/code-review`, then `/simplify` - at the end of every phase, before committing
+
 ## Project layout
 
 - `src/` - app and logic code
