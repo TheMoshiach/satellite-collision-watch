@@ -1,0 +1,16 @@
+# Full ESA dataset (about 600 MB unzipped) - get it with scripts/download_data.py
+data/raw/
+
+# Virtual environment
+.venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Editor and OS files
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
